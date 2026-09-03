@@ -6,25 +6,25 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SecondActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_third);
 
-        Button btnBack = findViewById(R.id.btnBack);
+        Button btnBack = findViewById(R.id.btnBackToSecond);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(); // Fecha a tela atual e volta para a anterior
+                finish();
             }
         });
 
-        Button btnBuy = findViewById(R.id.btnBuy);
-        btnBuy.setOnClickListener(new View.OnClickListener() {
+        Button btnNext = findViewById(R.id.btnNextToFourth);
+        btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(ThirdActivity.this, FourthActivity.class);
                 startActivity(intent);
             }
         });

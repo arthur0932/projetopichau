@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2F2F2F"
-    tools:context=".MainActivity">
+    android:background="#1A1A1A"
+    tools:context=".NvidiaActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="190dp"
         android:layout_height="37dp"
-        app:cardBackgroundColor="#454242"
+        app:cardBackgroundColor="#76B900"
         app:cardCornerRadius="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:id="@+id/textView2"
         android:layout_width="181dp"
         android:layout_height="72dp"
-        android:text="Teclado Mecanico Corsair Vanguard 96, RGB, Switch Mlx Plasma, Tri-Mode"
+        android:text="Placa de Vídeo RTX 4090 Rog Strix, 24GB GDDR6X, DLSS 3"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         android:id="@+id/textView5"
         android:layout_width="154dp"
         android:layout_height="70dp"
-        android:text="Gabinete Gamer Pichau Osiris, Mini-Tower, Lateral de Vidro, Preto"
+        android:text="Processador NVIDIA Grace CPU Superchip, 144 núcleos Neoverse"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +51,7 @@
         android:id="@+id/textView6"
         android:layout_width="181dp"
         android:layout_height="72dp"
-        android:text=" Cadeira Pichau Office Lyse, Full Mesh, Braco 5D, Base Alumínio, Cinza"
+        android:text="NVIDIA Jetson Orin Nano, IA de alto desempenho para Robótica"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +64,7 @@
         android:id="@+id/textView3"
         android:layout_width="179dp"
         android:layout_height="85dp"
-        android:text="Gabinete Gamer Corsair Frame 4000D RS, ARGB, Mid-Tower, Lateral de Vidro, Tela LCD, Com 4 Fans"
+        android:text="Placa de Vídeo RTX 4080 Super Founders Edition, 16GB GDDR6X"
         android:textColor="#EDE7E7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,8 +76,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 150,00"
-        android:textColor="#227813"
+        android:text="R$ 13.499,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,8 +90,8 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 590,00"
-        android:textColor="#227813"
+        android:text="R$ 7.890,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,8 +104,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 300,00"
-        android:textColor="#227813"
+        android:text="R$ 15.300,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,8 +118,8 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 1500,00"
-        android:textColor="#227813"
+        android:text="R$ 4.500,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -138,7 +138,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.329"
-        app:srcCompat="@drawable/ch_91e901e_na0" />
+        app:srcCompat="@drawable/_7cf8a01b_f9f2_4ae4_b9f8_0eb56955b8eb" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -150,7 +150,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.328"
-        app:srcCompat="@drawable/_382pc8000011" />
+        app:srcCompat="@drawable/_7cf8a01b_f9f2_4ae4_b9f8_0eb56955b8eb" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -162,7 +162,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.773"
-        app:srcCompat="@drawable/pg_osi_bk1222123" />
+        app:srcCompat="@drawable/_7cf8a01b_f9f2_4ae4_b9f8_0eb56955b8eb" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -174,19 +174,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.771"
-        app:srcCompat="@drawable/pch_lys_gy2_1" />
+        app:srcCompat="@drawable/_7cf8a01b_f9f2_4ae4_b9f8_0eb56955b8eb" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="187dp"
-        android:layout_height="145dp"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107"
-        app:srcCompat="@drawable/_7cf8a01b_f9f2_4ae4_b9f8_0eb56955b8eb" />
+        tools:srcCompat="@drawable/_7cf8a01b_f9f2_4ae4_b9f8_0eb56955b8eb" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -200,16 +200,15 @@
         app:layout_constraintVertical_bias="0.009"
         app:srcCompat="@drawable/sim" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="54dp"
-        android:layout_height="48dp"
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:backgroundTint="#76B900"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038"
-        app:srcCompat="@drawable/captura_de_tela_2026_09_03_as_15_00_40" />
+        android:layout_marginBottom="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

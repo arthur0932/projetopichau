@@ -2,30 +2,17 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/third_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2F2F2F"
-    tools:context=".MainActivity">
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="190dp"
-        android:layout_height="37dp"
-        app:cardBackgroundColor="#454242"
-        app:cardCornerRadius="22dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+    tools:context=".ThirdActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="181dp"
         android:layout_height="72dp"
-        android:text="Teclado Mecanico Corsair Vanguard 96, RGB, Switch Mlx Plasma, Tri-Mode"
+        android:text="Teclado Mecânico Quântum Pichau x NVIDIA, Switches Verdes Ópticos, Design Aorus"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,20 +25,20 @@
         android:id="@+id/textView5"
         android:layout_width="154dp"
         android:layout_height="70dp"
-        android:text="Gabinete Gamer Pichau Osiris, Mini-Tower, Lateral de Vidro, Preto"
+        android:text="Estação de Trabalho Hyper-Apex Render Pichau x NVIDIA, Multi-GPU RTX 6000 Ada"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="181dp"
         android:layout_height="72dp"
-        android:text=" Cadeira Pichau Office Lyse, Full Mesh, Braco 5D, Base Alumínio, Cinza"
+        android:text="Switch de Rede Pichau x NVIDIA Cloud-G Data-Switch, Otimizado para GeForce NOW"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,11 +51,11 @@
         android:id="@+id/textView3"
         android:layout_width="179dp"
         android:layout_height="85dp"
-        android:text="Gabinete Gamer Corsair Frame 4000D RS, ARGB, Mid-Tower, Lateral de Vidro, Tela LCD, Com 4 Fans"
+        android:text="Monitor Pichau G-Force Infinity 65&quot; OLED, 4K 240Hz, NVIDIA G-Sync Ultimate"
         android:textColor="#EDE7E7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintHorizontal_bias="0.931"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,8 +63,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 150,00"
-        android:textColor="#227813"
+        android:text="R$ 1.500,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,8 +77,8 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 590,00"
-        android:textColor="#227813"
+        android:text="R$ 2.800,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,8 +91,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 300,00"
-        android:textColor="#227813"
+        android:text="R$ 3.200,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,8 +105,8 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 1500,00"
-        android:textColor="#227813"
+        android:text="R$ 8.900,00"
+        android:textColor="#76B900"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +116,7 @@
         app:layout_constraintVertical_bias="0.957" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageViewProduct1"
         android:layout_width="153dp"
         android:layout_height="112dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -138,10 +125,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.329"
-        app:srcCompat="@drawable/ch_91e901e_na0" />
+        app:srcCompat="@drawable/captura_de_tela_2026_09_03_as_16_30_13" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageViewProduct2"
         android:layout_width="141dp"
         android:layout_height="113dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -150,22 +137,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.328"
-        app:srcCompat="@drawable/_382pc8000011" />
+        app:srcCompat="@drawable/captura_de_tela_2026_09_03_as_16_36_09" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageViewProduct3"
         android:layout_width="135dp"
         android:layout_height="125dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773"
-        app:srcCompat="@drawable/pg_osi_bk1222123" />
+        app:layout_constraintVertical_bias="0.775"
+        app:srcCompat="@drawable/captura_de_tela_2026_09_03_as_16_36_34" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageViewProduct4"
         android:layout_width="154dp"
         android:layout_height="127dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -174,24 +161,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.771"
-        app:srcCompat="@drawable/pch_lys_gy2_1" />
+        app:srcCompat="@drawable/captura_de_tela_2026_09_03_as_16_36_39" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageViewBanner"
         android:layout_width="187dp"
         android:layout_height="145dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107"
+        app:layout_constraintVertical_bias="0.027"
         app:srcCompat="@drawable/_7cf8a01b_f9f2_4ae4_b9f8_0eb56955b8eb" />
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:id="@+id/imageViewLogo"
+        android:layout_width="62dp"
+        android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.036"
@@ -200,16 +186,6 @@
         app:layout_constraintVertical_bias="0.009"
         app:srcCompat="@drawable/sim" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="54dp"
-        android:layout_height="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038"
-        app:srcCompat="@drawable/captura_de_tela_2026_09_03_as_15_00_40" />
+    <!-- Navigation Buttons -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
